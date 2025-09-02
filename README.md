@@ -1,3 +1,3 @@
-09/02/25\n
-Travis Renberg\n
-Guessing Game\n
+09/02/25
+Travis Renberg
+Guessing Game
