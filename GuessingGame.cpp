@@ -27,7 +27,9 @@ int main(){
     srand(time(NULL));
     int num = rand() % 100 + 1; // generate a random number 1-100
     int input = 0;
+    int guesses = 1;
     while (num != input){
+      guesses++;
       cout << "Guess a number (1-100): ";
       cin >> input;
       wait(1000);
@@ -40,13 +42,14 @@ int main(){
       }
       else {
 	cout << "You got it! " << num << "!"; // correct guess
+	cout << "Attempts: " << guesses;
       }
       cout << "\n";
     }
     cout << "Want to play again? (y): ";
     cin >> input2;
   }
-  cout << "Goodbye!";
+  cout << "Goodbye!\n";
   return 0;
 }
     
