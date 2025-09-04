@@ -41,7 +41,7 @@ int main(){
 	cout << "Too  low!";
       }
       else {
-	cout << "You got it! " << num << "!"; // correct guess
+	cout << "You got it! " << num << "!\n"; // correct guess
 	cout << "Attempts: " << guesses;
       }
       cout << "\n";
