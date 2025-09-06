@@ -1,6 +1,6 @@
-// 1. Treat your teachers well, classmates with respect
-// 2. Be safe
-// 3. Use class time well
+// no global variables (constants are okay)
+// no strings, only cstrings/char arrays
+// include iostream, use new and delete
 #include <iostream>
 #include <thread> // for pausing instructions, does making an entire thread sleep halt its instructions on other programs?
 #include <chrono> // for counting time
@@ -42,7 +42,7 @@ int main(){
       }
       else {
 	cout << "You got it! " << num << "!\n"; // correct guess
-	cout << "Attempts: " << guesses;
+	cout << "Attempts: " << guesses; // guess count
       }
       cout << "\n";
     }
